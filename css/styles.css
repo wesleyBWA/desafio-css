@@ -1,0 +1,17 @@
+
+
+:root {
+    --color-red:  #F03C42;
+    --color-blue: #222374;
+    --color-black:#000000;
+    --color-cinze:#CCCCCC;
+
+
+
+
+}
+
+header {
+    background-color: var(--color-red);
+    
+}
