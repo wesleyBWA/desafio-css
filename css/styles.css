@@ -1,17 +1,139 @@
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
 :root {
     --color-red:  #F03C42;
     --color-blue: #222374;
     --color-black:#000000;
     --color-cinze:#CCCCCC;
+    --color-white:#FFFFFF;
 
+}
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
 
-
-
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 header {
     background-color: var(--color-red);
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.img-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: right;
+    color: var(--color-white);
+}  
+nav p {
+    display: flex;
+}
+nav p {
+    text-align: left;
+    color: var(--color-white);
+    font-size: 18px;
     
+
+
+    
+}
+header h1 {
+    text-align: right;
+    color: var(--color-white);
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 20px;
+}
+#conheca {
+    padding: 40px 0;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    top: 20px;
+    padding: 20px;
+
+}
+.conheca-card-description {
+    margin-bottom: 20px;
+    background-color: var(--color-cinze);
+    border-radius: 8px;
+    color: var(--color-black);
+    padding: 15px;
+    height: auto;
+    width: auto;
+    left: auto;
+    top: 20px;
+
+}
+#modalidade {
+    padding: 40px 0;
+    background-color: var(--color-white);
+    color: var(--color-red);
+    top: 20px;
+    padding: 20px;
+
+
+}
+.modalidade-card-description {
+    margin-bottom: 20px;
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    color: var(--color-white);
+    padding: 15px;
+    height: auto;
+    width: auto;
+    left: auto;
+    top: 20px;
+
+
+}
+footer {
+    height: 200px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.img-card-instagran {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.img-card-tweter {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+
+}
+.diretos-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.endereco-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
 }
